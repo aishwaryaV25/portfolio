@@ -17,3 +17,12 @@ Thumbs.db
 
 # Misc
 *.swp
+portfolio/
+  api/
+    contact.js         <-- (Vercel API route for backend)
+  public/
+    index.html         <-- (your portfolio.html, renamed to index.html)
+    ...                <-- (any CSS, JS, images used by your HTML)
+  package.json
+  .gitignore
+  ...
