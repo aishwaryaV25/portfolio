@@ -197,6 +197,76 @@ nav{position:fixed;top:0;left:0;right:0;z-index:300;padding:1.8rem 3rem;display:
   .side-dots,.bbar{display:none}
   .h-stats{flex-wrap:wrap}
 }
+
+@media (max-width: 600px) {
+  html, body {
+    font-size: 15px;
+    overflow: auto;
+  }
+  nav {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    gap: 0.7rem;
+  }
+  .nav-pills {
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    padding: 0.2rem;
+  }
+  .panel {
+    padding: 1rem 0.2rem !important;
+    min-height: 100vh;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h-name {
+    font-size: 2.2rem !important;
+    letter-spacing: -1px;
+  }
+  .h-stats {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .h-btns {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .pgrid {
+    grid-template-columns: 1fr !important;
+  }
+  .ct-wrap {
+    grid-template-columns: 1fr !important;
+    gap: 1.2rem !important;
+    padding: 0 !important;
+  }
+  .ct-form {
+    padding: 1rem !important;
+  }
+  .side-dots, .bbar {
+    display: none !important;
+  }
+  .sk-layout {
+    grid-template-columns: 1fr !important;
+    gap: 1.2rem !important;
+  }
+  .glass-card {
+    padding: 1rem !important;
+  }
+  .ph-title {
+    font-size: 1.2rem !important;
+  }
+  .ph-eyebrow {
+    font-size: 0.8rem !important;
+  }
+  .fg input, .fg textarea {
+    font-size: 1rem !important;
+    padding: 0.6rem 0.7rem !important;
+  }
+  .fbtn {
+    font-size: 1rem !important;
+    padding: 0.7rem !important;
+  }
+}
 </style>
 </head>
 <body>
